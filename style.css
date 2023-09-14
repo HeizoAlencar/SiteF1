@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: rgb(14, 12, 20);
+}
+
+
+/*fonts*/
+@font-face {
+    font-family: F1-wide;
+    src: url(/SiteF1/fonts/Formula1-Wide.otf);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: F1-regular;
+    src: url(/SiteF1/fonts/Formula1-Regular.otf);
+  }
+
+@font-face {
+    font-family: F1-bold;
+    src: url(/SiteF1/fonts/Formula1-Bold.otf);
+    font-weight: bold;
+  }
+
+/*fonts-end*/
+
+/*menu-start*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+}
+
+.menu-title{
+    font-family: F1-wide;
+}
+
+.menu-title span{
+    font-size: 10px;
+    font-family: F1-regular;
+}
+
+
+.nav-bar ul{
+list-style-type: none;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    font-family: F1-regular;
+    margin-left: 20px;
+}
+
+.nav-items :hover{
+    color: azure;
+    transition: 0.3s;
+}
+/*menu-end*/
