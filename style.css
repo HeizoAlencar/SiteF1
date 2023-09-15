@@ -64,3 +64,62 @@ list-style-type: none;
     transition: 0.3s;
 }
 /*menu-end*/
+
+/*banner-1*/
+.banner-1{
+    display: flex;
+    height: 90vh !important;
+    width: 100%;
+}
+
+
+.banner-1-image{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background-image: url(/SiteF1/images/Ayrton_Senna_Mclaren_Mp4_Brazil_flag_Formula_1_racing_helmet-1919767.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,1))
+}
+
+.banner-1-title{
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(14,12,20,1) 0%, rgba(14,12,20,1) 50%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+    font-family: F1-bold;
+    color: white;
+}
+
+.banner-1-title img{
+    margin-left: 15px;
+    margin-top: 2%;
+    height: 90%;
+}
+.banner-1-title h1{
+    width: 60%;
+    background: linear-gradient(90deg, rgba(255, 0, 0) 0%, rgba(255, 0, 0,07) 64%, rgb(255, 0, 0,0) 100%);
+}
+/*banner-1-end*/
+
+
+@media only screen and (max-width: 897px){
+    .banner-1-title{
+        background-image: none;
+        width: 100%;
+    }
+    .banner-1-image{
+        display: block;
+        width: 100vh;
+        height: 100%;
+        
+
+    }
+    .banner-1-title img{
+        margin-left: 15px;
+        margin-top: 2%;
+   
+}
