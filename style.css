@@ -151,22 +151,35 @@ list-style-type: none;
 /*banner-1-end*/
 
 .boxs{
-    display: grid;
+    flex-wrap: wrap;
+    
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
-
+.escuderias{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-family: f1-Bold;
+    color: #fff;
+    justify-content: center;
+}
 .box{
-    flex-wrap: wrap;
+       flex-wrap: wrap;
 width: 300px;
 height: 300px;
-background-color: aliceblue;
+background-color: #fff;
 margin-top: 30px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 }
-
+#wilians{
+    background-size: 150%;
+    background-color: rgb(0, 0, 110);
+    background-image: url(/SiteF1/images/wiliams.webp);
+}
 #ferrari{
 background-image: url(/SiteF1/images/ferrari.jpg);
 }
@@ -174,6 +187,7 @@ background-image: url(/SiteF1/images/ferrari.jpg);
     background-image: url(/SiteF1/images/rb.jpg);
 }
 #alpine{
+    color: black;
     background-image: url(/SiteF1/images/2335596ed66aacf0628903515efea09e.webp);
 }
 #maclaren{
@@ -193,15 +207,21 @@ background-image: url(/SiteF1/images/ferrari.jpg);
     background-image:url( /SiteF1/images/mercedes.jpg )   ;
 }
 #hass{
+    color: black;
     background-size: 80%;
     background-image: url(/SiteF1/images/haas-f1-team9832.logowik.com.webp);
 }
 .escuderias{
-    margin-top: 100px;
+    margin-top: 30px;
 } 
-
+#title-escuderias{
+    margin-top: 100px;
+    font-family: f1-Bold;
+    text-align:center;
+    color: #fff;
+}
 .container{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -220,5 +240,8 @@ background-image: url(/SiteF1/images/ferrari.jpg);
     .banner-1-title img{
         margin-left: 15px;
         margin-top: 2%;
+    }
+    .container{
+        max-width: 399px;
     }
 }
